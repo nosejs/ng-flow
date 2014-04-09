@@ -1,4 +1,4 @@
-What is ng-flow?
+ng-flow是什么?
 ============
 
 Flow.js extensions for angular.js framework, no 3rd party JS dependencies required!
@@ -7,9 +7,9 @@ ng-flow extension is based on [Flow.js](https://github.com/flowjs/flow.js) libra
 
 Demo: http://flowjs.github.io/ng-flow/
 
-How can I install it?
+我如何安装它?
 ============
-1) Get the library:
+1) 获取库:
 
 **Direct Download**
 Download a latest build from https://github.com/flowjs/ng-flow/releases
@@ -33,7 +33,7 @@ they are also concatenated with core flow.js library.
 
         angular.module('app', ['flow'])
         
-How can I use it?
+我如何使用它?
 ============
 
 First of all wrap places there you are going to use Flow.js
@@ -69,7 +69,7 @@ Files array is attached to flow object named `$flow`.
 file is instance of [FlowFile](https://github.com/flowjs/flow.js#flowfile).
 
 
-How can I drop files?
+我如何放置文件?
 ============
 
 Use `flow-drop` directive:
@@ -105,7 +105,7 @@ Note: `flow-drag-leave` attribute can't be used alone, it is a part of `flow-dra
 See example at `samples/dataurl/`.
 
 
-How can I preview uploaded image?
+如何预览上传的图片?
 ============
 
 Use flow-img directive:
@@ -116,7 +116,7 @@ Use flow-img directive:
 Image will be automatically updated once file is added. No need to start upload.
 
 
-How can I set options for flow.js?
+如何为flow.js设置选项?
 ============
 
 Use config:
@@ -145,7 +145,7 @@ also can be configured on "flow-init" directive:
 ````
 
 
-How can I catch events?
+如何获取事件?
 ============
 
 Events are listed inside `flow-init` directive:
@@ -189,7 +189,7 @@ Use `flow-name` attribute and set it to any variable in the scope.
 </div>
 ````
 
-How can I support older browsers?
+如何支持老旧浏览器?
 ============
 Go to https://github.com/flowjs/fusty-flow.js
 and add to your config:
@@ -200,13 +200,13 @@ var app = angular.module('app', ['flow'])
 }]);
 ````
 
-Need example?
+需要实例吗?
 ============
 Clone this repository and go to "ng-flow/samples/basic/index.html".
 Single image upload "ng-flow/samples/image/index.html".
 
 
-Contribution
+贡献
 ============
 To ensure consistency throughout the source code, keep these rules in mind as you are working:
 
